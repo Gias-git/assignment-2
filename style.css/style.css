@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.playwrite-cu-font {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #E6533C;
+    --secondary-color: #FFFFFF80;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* shared style */
+
+.primary-button {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    color: white;
+    border: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* Navbar-style */
+
+.header-section {
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(45,41,41,1) 49%, rgba(17,17,17,1) 100%);
+}
+
+
+.nav-bar {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.nav-logo h2 {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.nav-items>li {
+    list-style: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.nav-icon {
+    display: none;
+}
+
+/* Navbar-style end */
+
+/* banner section style start */
+#download-app {
+    border-radius: 42px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 20px 8px 20px;
+    color: white;
+    margin-left: 0.8rem;
+}
+
+/* banner section style end */
+
+.banner {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.banner-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.banner-content p{
+    color: var(--secondary-color);
+    width: 80%;
+}
+
+
+.banner-image-container{
+position: relative;
+}
+
+.workout-section{
+    width:200px;
+    padding: 17px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top:20%;
+    left: 60%;
+}
+
+.workout-section h1{
+    color: white;
+}
+
+.workout-section p{
+    color: var(--secondary-color);
+}
+
+.workout-section-second{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    width:250px;
+    padding: 17px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top:80%;
+    right:100%; 
+}
+
+.workout-section-button{
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+}
+
+.workout-section-second h1{
+    color: white;
+}
+
+.workout-section-second{
+    color: var(--secondary-color);
+}

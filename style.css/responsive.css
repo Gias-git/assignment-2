@@ -1,0 +1,22 @@
+
+@media screen and (max-width:576px) {
+    
+    /* Navbar-style */
+    .nav-bar{
+        max-width: 500px;
+        padding: 30px 20px 51px 20px;
+        align-items: center;
+    }
+
+    .nav-icon{
+        display: block;
+        color: white;
+    }
+    .nav-items{
+        display: none;
+    }
+    
+    /* Navbar-style */
+
+    
+}
