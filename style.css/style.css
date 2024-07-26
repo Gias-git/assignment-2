@@ -56,6 +56,11 @@ section {
     margin-top: 100px;
 }
 
+footer{
+    background-color: #222222;
+    margin-top: 100px;
+}
+
 
 .display-flex {
     display: flex;
@@ -304,31 +309,138 @@ section {
 
 /* Run section End */
 
-.traing-img img {
-    width: 100%;
-    height: 100%;
+
+
+/* Training-section-style-start */
+
+
+.training-img-container {
+    margin-top: 2rem;
 }
 
 .row-one {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 100%;
+    min-height: 450px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.training-img {
-    width: 323px;
-    height: 300px;
+    grid-template-columns: 1fr 50px 1fr 1fr 50px 1fr;
+    grid-template-areas:
+        "card-1 card-2 card-2 card-2 card-3 card-3"
+        "card-4 card-4 card-4 card-5 card-6 card-6"
 }
 
 #card-1 {
-    background: rgba(6, 255, 210, 0.5), url("../images/exercise2.png");
+    grid-area: card-1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#card-1 p {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#card-2 {
+    grid-area: card-2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#card-2 p {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#card-3 {
+    grid-area: card-3;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise3.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#card-3 p {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#card-4 {
+    grid-area: card-4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise4.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#card-4 p {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#card-5 {
+    grid-area: card-5;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise5.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#card-5 p {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#card-6 {
+    grid-area: card-6;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise6.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#card-6 p {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-size: 1.2rem;
 }
 
 
 
 
-/* BMI Calculator */
+
+
+/* Training-section-style-End */
+
+
+
+
+
+
+
+
+
+
+/* BMI Calculator section start*/
 
 
 .bmi-heading-container {
@@ -361,11 +473,11 @@ section {
 }
 
 
-.calculate-your-bmi-div{
+.calculate-your-bmi-div {
     width: 50%;
 }
 
-.calculate-your-bmi-heading{
+.calculate-your-bmi-heading {
     color: white;
     font-weight: 900;
     font-size: 1.75rem;
@@ -386,13 +498,15 @@ td {
     padding: 10px 30px;
 }
 
-.input-box{
+.input-box {
     margin-top: 1rem;
 }
 
-input, select, option{
+input,
+select,
+option {
     color: white;
-    width: 40%;
+    width: 47%;
     background-color: #121111;
     padding: 1.2rem 1rem;
     margin: 0.25rem;
@@ -400,8 +514,192 @@ input, select, option{
     border: none;
 }
 
-#select-an-activity{
-    width: 85%;
+#select-an-activity {
+    width: 97%;
 }
 
+#calculate-btn {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    padding: 10px 50px;
+}
+
+/* BMI Calculator section End*/
+
+/* Meet our team section style start */
+
+
+.team-member-intro-section {
+    margin-top: 37rem;
+}
+
+.team-heading-container {
+    width: 45%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 4rem;
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.team-img div {
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.member-1 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.member-1 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.member-2 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.member-3 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.member-4 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.member-5 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.member-6 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.14058123249299714) 0%, rgba(0, 0, 0, 0.5243347338935574) 100%), url(../images/trainer6.png);
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.member-info {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.member-info h2 {
+    color: white;
+}
+
+.member-info p {
+    color: var(--secondary-color)
+}
+
+/* Meet our team section style end */
+
 /* main section style end */
+
+
+
+
+/* footer-section-start */
+.footer-section{
+    max-width: 1180px;
+    margin: 0px auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.Footer-logo{
+    max-width: 35%;
+}
+.Footer-logo h2{
+    font-size: 5rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+    margin-bottom: 1.25rem;
+}
+.Footer-logo p{
+    font-size: 1rem;
+    color: var(--secondary-color);
+    line-height: 1.4rem;
+    font-weight: 300;
+}
+
+.footer-list-1 {
+    width: 30%;
+    padding-left: 2.5rem;
+}
+.footer-list-1 h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.footer-list-1 li{
+    font-weight: 300;
+   list-style: none;
+   margin-top: 1rem;
+   color: var(--secondary-color);
+   font-size: 1.5rem;
+}
+
+
+.footer-list-2 {
+    width: 30%;
+    padding-left: 2.5rem;
+}
+.footer-list-2 h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.footer-list-2 li{
+    font-weight: 300;
+   list-style: none;
+   margin-top: 1rem;
+   color: var(--secondary-color);
+   font-size: 1.5rem;
+}
+
+.hr{
+    color: var(--secondary-color);
+    width: 80%;
+    margin: 0px auto;
+}
+
+.copyright{
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/* footer-section-End */

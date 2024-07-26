@@ -95,5 +95,61 @@
     width: 100%;
 }
 /* run section style End*/
-    
+
+
+
+/* training-and-exercise-section-start*/
+
+.training-and-exercise-section{
+    margin: 5rem 1.5rem;
+}
+.row-one {
+    max-width: 100%;
+    min-height: 300px;
+    justify-content: center;
+     display: grid;
+     grid-template-columns: 1fr 1fr 25px 1fr 1fr;
+     grid-template-areas: 
+     "card-1 card-1 card-1 card-2 card-2"
+     "card-3 card-3 card-4 card-4 card-4" ;
+ }
+
+ #card-5{
+    display: none;
+ }
+ #card-6{
+    display: none;
+ }
+
+/* training-and-exercise-section-end*/
+
+
+
+ /* BMI Calculator section start*/ 
+
+#bmi-calculator-div {
+    flex-direction: column;
+    gap: 2rem;
+}
+.bmi-heading-container {
+    width: 90%;
+    margin: 0 2rem;
+}
+#bmi-calculator-section{
+    margin-top: 1rem;
+}
+.calculate-your-bmi-div{
+    width: 100%;
+}
+input, select, option {
+    width: 47%;
+}
+
+#select-an-activity{
+    width: 97%;
+}
+
+
+ /* BMI Calculator section End*/ 
+
 }
