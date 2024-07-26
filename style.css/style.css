@@ -29,14 +29,14 @@
     font-size: 16px;
 }
 
-body{
+body {
     background-color: black;
 }
 
 
 
 
-                                    /* shared style */
+/* shared style */
 
 .primary-button {
     border-radius: 42px;
@@ -46,13 +46,13 @@ body{
     border: none;
 }
 
-main{
+main {
     max-width: 1180px;
     margin: 0px auto;
     background-color: black;
 }
 
-section{
+section {
     margin-top: 100px;
 }
 
@@ -61,14 +61,14 @@ section{
     display: flex;
 }
 
-.section-heading{
+.section-heading {
     font-size: 3rem;
     font-weight: 900;
     color: white;
     margin: 0px;
 }
 
-.section-description{
+.section-description {
     font-size: 0.8rem;
     font-weight: 400;
     color: var(--secondary-color);
@@ -76,11 +76,11 @@ section{
 }
 
 
-                                /* Navbar-style */
+/* Navbar-style */
 
 .header-section {
-    background: rgb(17,17,17);
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(45,41,41,1) 49%, rgb(0, 0, 0) 100%);
+    background: rgb(17, 17, 17);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(45, 41, 41, 1) 49%, rgb(0, 0, 0) 100%);
 }
 
 
@@ -130,7 +130,7 @@ section{
     margin-left: 0.8rem;
 }
 
- /* banner section style end */
+/* banner section style end */
 
 .banner {
     display: flex;
@@ -154,56 +154,56 @@ section{
     line-height: 120%;
 }
 
-#fancy-font{
+#fancy-font {
     font-size: 4rem;
 }
 
-.banner-content p{
+.banner-content p {
     color: var(--secondary-color);
     width: 80%;
 }
 
 
-.banner-image-container{
-position: relative;
+.banner-image-container {
+    position: relative;
 }
 
-.workout-section{
-    width:200px;
+.workout-section {
+    width: 200px;
     padding: 17px 15px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     position: absolute;
-    top:20%;
+    top: 20%;
     left: 60%;
 }
 
-.workout-section h1{
+.workout-section h1 {
     color: white;
     font-size: 1.5rem;
 }
 
-.workout-section p{
+.workout-section p {
     color: var(--secondary-color);
 }
 
-.workout-section-second{
+.workout-section-second {
     max-width: 200px;
-    display:flex;
-    gap:10px;
+    display: flex;
+    gap: 10px;
     align-items: center;
-    width:250px;
+    width: 250px;
     padding: 17px 10px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     position: absolute;
-    top:80%;
-    right:70%; 
+    top: 80%;
+    right: 70%;
 }
 
-.workout-section-button{
+.workout-section-button {
     width: 40px;
     height: 40px;
     background-color: var(--primary-color);
@@ -211,33 +211,33 @@ position: relative;
     border-radius: 50%;
 }
 
-.workout-section-second h1{
+.workout-section-second h1 {
     color: white;
     font-size: 1.3rem;
 }
 
-.workout-section-second{
+.workout-section-second {
     color: var(--secondary-color);
 }
 
-                            /* header section End */
+/* header section End */
 
 
-                            /* Main section style start */
+/* Main section style start */
 
 
 /* habit section style start */
 
-.habit-content-container{
+.habit-content-container {
     max-width: 550px;
     margin: 0 auto;
     margin-bottom: 3rem;
     text-align: center;
 }
 
-.habit-card-container{
+.habit-card-container {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2.8rem;
 }
 
@@ -247,25 +247,27 @@ position: relative;
     align-items: center;
 }
 
-.habit-card img{
-border-radius: 50%;
-margin-bottom: 30px;
+.habit-card img {
+    border-radius: 50%;
+    margin-bottom: 30px;
 }
 
-.habit-card h3{
-color: white;
-} 
+.habit-card h3 {
+    color: white;
+}
 
 
-.habit-card p{
+.habit-card p {
     text-align: center;
 }
+
 /* habit section style End */
 
 
 /* Run section start */
 
-.run-section{
+.run-section {
+
     display: flex;
     justify-content: space-between;
     padding: 2.8rem 3.3rem;
@@ -273,7 +275,8 @@ color: white;
     background: rgb(34, 34, 34);
 
 }
-.run-content{
+
+.run-content {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -281,18 +284,19 @@ color: white;
     justify-content: center;
 }
 
-.run-content p{
-margin-bottom: 2rem;
+.run-content p {
+    margin-bottom: 2rem;
 }
-.run-img{
+
+.run-img {
     width: 50%;
 }
 
-.run-content button{
+.run-content button {
     padding: 1rem 3.7rem;
 }
 
-.run-img img{
+.run-img img {
     width: 100%;
     height: 100%;
     border-radius: 18px;
@@ -300,4 +304,104 @@ margin-bottom: 2rem;
 
 /* Run section End */
 
-                            /* main section style end */
+.traing-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.row-one {
+    max-width: 300px;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.training-img {
+    width: 323px;
+    height: 300px;
+}
+
+#card-1 {
+    background: rgba(6, 255, 210, 0.5), url("../images/exercise2.png");
+}
+
+
+
+
+/* BMI Calculator */
+
+
+.bmi-heading-container {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
+
+#bmi-calculator-section {
+    background-color: #222222;
+    min-width: 100%;
+    position: absolute;
+    left: 0%;
+    padding: 2rem;
+}
+
+#bmi-calculator-div {
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-chart-heading {
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin-bottom: 50px;
+}
+
+
+.calculate-your-bmi-div{
+    width: 50%;
+}
+
+.calculate-your-bmi-heading{
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
+
+table,
+th,
+td {
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px 30px;
+}
+
+.input-box{
+    margin-top: 1rem;
+}
+
+input, select, option{
+    color: white;
+    width: 40%;
+    background-color: #121111;
+    padding: 1.2rem 1rem;
+    margin: 0.25rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#select-an-activity{
+    width: 85%;
+}
+
+/* main section style end */

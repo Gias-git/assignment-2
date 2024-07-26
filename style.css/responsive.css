@@ -71,5 +71,29 @@
     margin: 0px;
 }
 /* habit section style ENd */
+
+
+
+/* run section style start*/
+.run-section{
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.run-content{
+    width: 100%;
+}
+
+.run-content button{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.run-img{
+    width: 100%;
+}
+/* run section style End*/
     
 }
