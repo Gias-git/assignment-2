@@ -152,4 +152,45 @@ input, select, option {
 
  /* BMI Calculator section End*/ 
 
+
+
+
+ /* meet team member section start*/
+
+ .team-img{
+    grid-template-columns: repeat(1, 1fr);
+ }
+
+ .team-heading-container{
+    width: 100%;
+ }
+ .team-member-intro-section {
+    margin-top: 48rem;
+}
+ /* meet team member section End*/
+
+
+ /* Footer-section-start */
+
+ .footer-section{
+    flex-direction: column;
+ }
+ .Footer-logo{
+    max-width: 80%;
+    margin: 0px auto;
+ }
+
+ .footer-list-1{
+    width: 100%;
+ }
+ .footer-list-2{
+    width: 100%;
+ }
+
+ 
+ /* Footer-section-End */
+
+
+
+
 }
