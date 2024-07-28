@@ -1,6 +1,7 @@
 
 @media screen and (max-width:576px) {
     
+    
     /* Navbar-style start*/
     .nav-bar{
         max-width: 400px;
@@ -142,11 +143,11 @@
     width: 100%;
 }
 input, select, option {
-    width: 47%;
+    width: 45%;
 }
 
 #select-an-activity{
-    width: 97%;
+    width: 95%;
 }
 
 

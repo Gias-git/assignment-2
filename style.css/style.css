@@ -330,7 +330,7 @@ footer{
 
 #card-1 {
     grid-area: card-1;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise1.jpg");
+    background: linear-gradient(180deg, rgba(48, 210, 213, 0.562) 0%, rgba(48, 210, 213, 0.562)  100%), url("../images/exercise1.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -340,13 +340,14 @@ footer{
     position: absolute;
     bottom: 20%;
     left: 10%;
-    color: white;
-    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 #card-2 {
     grid-area: card-2;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise2.png");
+    background: linear-gradient(180deg, rgba(246, 85, 85, 0.488) 2%, rgba(246, 85, 85, 0.488) 100%), url("../images/exercise2.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -357,7 +358,8 @@ footer{
     left: 5%;
     top: 10%;
     color: white;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 #card-3 {
@@ -370,10 +372,11 @@ footer{
 
 #card-3 p {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 10%;
     color: white;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 #card-4 {
@@ -386,15 +389,16 @@ footer{
 
 #card-4 p {
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    top: 10%;
+    right: 10%;
     color: white;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 #card-5 {
     grid-area: card-5;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise5.jpg");
+    background: linear-gradient(180deg, rgba(48,214,32,0.5439425770308124) 0%, rgba(48,214,32,0.5439425770308124) 100%), url("../images/exercise5.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -405,23 +409,26 @@ footer{
     left: 5%;
     top: 10%;
     color: white;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 #card-6 {
     grid-area: card-6;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48792016806722693) 2%, rgba(0, 0, 0, 0.3562675070028011) 100%), url("../images/exercise6.jpg");
+    background: linear-gradient(180deg, rgba(86, 84, 211, 0.488) 2%, rgba(86, 84, 211, 0.488) 100%), url("../images/exercise6.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 #card-6 p {
+    width: 50%;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 10%;
     color: white;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 
@@ -469,6 +476,7 @@ footer{
     color: white;
     font-weight: 900;
     font-size: 1.75rem;
+    margin: 0px;
     margin-bottom: 50px;
 }
 
@@ -491,6 +499,10 @@ td {
     border: 1px solid white;
     border-collapse: collapse;
     text-align: left;
+}
+
+td{
+    color: var(--secondary-color);
 }
 
 th,
