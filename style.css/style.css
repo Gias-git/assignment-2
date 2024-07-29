@@ -496,7 +496,7 @@ table,
 th,
 td {
     color: white;
-    border: 1px solid white;
+    border: 2px solid rgb(57, 56, 56);
     border-collapse: collapse;
     text-align: left;
 }
@@ -507,7 +507,7 @@ td{
 
 th,
 td {
-    padding: 10px 30px;
+    padding: 20px 30px;
 }
 
 .input-box {

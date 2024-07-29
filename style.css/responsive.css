@@ -1,6 +1,8 @@
 
 @media screen and (max-width:576px) {
-    
+    section {
+        margin-top: 30px;
+    }
     
     /* Navbar-style start*/
     .nav-bar{
@@ -142,6 +144,16 @@
 .calculate-your-bmi-div{
     width: 100%;
 }
+
+.bmi-chart-heading {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.calculate-your-bmi-heading {
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
 input, select, option {
     width: 45%;
 }
@@ -160,13 +172,16 @@ input, select, option {
 
  .team-img{
     grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
  }
 
  .team-heading-container{
-    width: 100%;
+    width: 80%;
  }
  .team-member-intro-section {
-    margin-top: 48rem;
+    margin-top: 55rem;
 }
  /* meet team member section End*/
 
