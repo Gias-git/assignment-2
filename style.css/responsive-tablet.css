@@ -1,0 +1,92 @@
+@media screen and (max-width:768px) and (min-width: 576px) {
+
+    /* Navbar-style start*/
+
+    .nav-bar {
+        max-width: 42rem;
+    }
+
+    .nav-logo h2 {
+        font-size: 2.25rem;
+    }
+
+    /* Navbar-style ENd*/
+
+
+    /* banner section start */
+
+    .banner {
+        flex-direction: column;
+        width: 37.44rem;
+        margin: 0px auto;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding-left: 1.2rem;
+        margin-top: 75px;
+    }
+
+    /* banner section End */
+
+
+    .habit-card-container {
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.8rem;
+        align-items: center;
+        max-width: 35.38rem;
+    }
+
+
+    .training-and-exercise-section {
+        width: 42.75rem;
+        margin: 0px auto;
+        margin-top: 3rem;
+    }
+
+    .row-one {
+        grid-template-columns: 1fr 1fr 0.9fr 0.2fr 1fr;
+        grid-template-areas:
+        "card-1 card-2 card-2 card-3 card-3"
+        "card-4 card-4 card-5 card-5 card-6"
+    }
+
+    .run-content{
+        width: 50%;
+    }
+
+    .run-img {
+        width: 16rem;
+        height: 21rem;
+        border-radius: 1.13rem;
+     
+    }
+
+    .run-img img {
+       width: 100%;
+       height: 100%;
+
+    }
+
+
+    .bmi-heading-container {
+        display: none;
+    }
+
+    #bmi-calculator-section {
+        display: none;
+    }
+
+    .team-member-intro-section {
+        display: none;
+    }
+
+    .progress-div{
+        width: 40%;
+    }
+    footer {
+        display: none;
+    }
+
+}
