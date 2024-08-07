@@ -161,7 +161,10 @@ input, select, option {
 #select-an-activity{
     width: 95%;
 }
-
+th,
+td {
+    padding: 10px 20px;
+}
 
  /* BMI Calculator section End*/ 
 
@@ -181,7 +184,7 @@ input, select, option {
     width: 80%;
  }
  .team-member-intro-section {
-    margin-top: 55rem;
+    margin-top: 50rem;
 }
  /* meet team member section End*/
 
