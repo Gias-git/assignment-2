@@ -298,8 +298,8 @@ footer{
     width: 22.88rem;
     height: 19.5rem;
     background-image: url(../images/run.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 400%;
+    background-position: 65% 28%;
     background-repeat: no-repeat;
     border-radius: 1.13rem;
 }
